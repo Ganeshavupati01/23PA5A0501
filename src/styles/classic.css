@@ -1,0 +1,55 @@
+/* Classic CSS for the RedirectHandler component and general app */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f5f5f5;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.redirect-container {
+  max-width: 500px;
+  margin: 100px auto 0 auto;
+  padding: 40px 30px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.redirect-container p {
+  font-size: 1.3rem;
+  color: #444;
+  margin: 0;
+  font-style: italic;
+}
+
+/* Classic button style */
+button, .classic-btn {
+  font-family: inherit;
+  background: #e0e0e0;
+  color: #222;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 8px 18px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 18px;
+  transition: background 0.2s, color 0.2s;
+}
+button:hover, .classic-btn:hover {
+  background: #d1d1d1;
+  color: #000;
+}
+
+/* Classic alert style (for custom alerts if needed) */
+.classic-alert {
+  background: #fffbe6;
+  border: 1px solid #e6c200;
+  color: #a67c00;
+  padding: 12px 20px;
+  border-radius: 4px;
+  margin-bottom: 18px;
+  font-size: 1.1rem;
+}
